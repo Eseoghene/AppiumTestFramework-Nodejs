@@ -219,7 +219,7 @@ module.exports = {
 
     callapi: function (protocol, endpoint, validate) {
         var xhr = new XMLHttpRequest();
-        //xhr.open("GET", "http://www.konga.com/", false);
+    
         xhr.open(protocol, endpoint, validate);
         xhr.send();
         var success = (xhr.status == "200");

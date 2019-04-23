@@ -2,55 +2,15 @@
   "host": "localhost",
   "user": "root",
   "password": "",
-  "database": "konga",
-  "launch": {
-    "googplaybtnid": "button1"
-  },
+  "database": " ",
+  
 
   "productinfo": {
-    "prod_name": "AndroidShoppingApp"
+    "prod_name": "uPortApp"
   },
 
   "splash": {
     "loginbtnxpath": "//android.widget.RelativeLayout[@index='0']/android.widget.Button[@index='6']"
-  },
-
-  "login": {
-    "forgotpassxpath": "//android.widget.LinearLayout[@index='0']/android.widget.ScrollView[@index='1']/android.widget.RelativeLayout[@index='0']/android.widget.TextView[@index='5']",
-    "phonenofieldxpath": "//android.widget.LinearLayout[@index='0']/android.widget.ScrollView[@index='1']/android.widget.RelativeLayout[@index='0']/android.widget.LinearLayout[@index='1']",
-    "pinfieldxpath": "//android.widget.LinearLayout[@index='0']/android.widget.ScrollView[@index='1']/android.widget.RelativeLayout[@index='0']/android.widget.RelativeLayout[@index='2']/android.widget.LinearLayout[@index='0']",
-    "loginbtnxpath": "//android.widget.LinearLayout[@index='0']/android.widget.ScrollView[@index='1']/android.widget.RelativeLayout[@index='0']/android.widget.Button[@index='4']",
-    "googlebtnxpath": "//android.widget.LinearLayout[@index='0']/android.widget.LinearLayout[@index='2']/android.widget.LinearLayout[@index='0']/android.widget.Button[@index='0']"
-  },
-
-  "userdetails": {
-    "phoneno": "08085800417",
-    "pin": "1423",
-    "itemcode": "000014",
-    "otp": "1234",
-    "resendotp": "5678",
-    "merchantid": "",
-    "merchantphoneno": "08038403446",
-    "amount": "1000",
-    "fundamount" :"2060",
-    "buyairtimephoneno" : "08063492192",
-    "buyairtimeamount" : "300",
-    "transfertobankamount" : "2450",
-    "qritemname" : "Qr Test Item",
-    "qritemamount" : "1450",
-    "qritemdecript" : "Buy from Tobi"
-  },
-
-  "home": {
-    "servicesbtnxpath": "//android.widget.TextView[@text='Services']",
-    "kongapaybalancexpath": "//android.widget.TextView[@text='KongaPay Balance']",
-    "paybtnxpath": "//android.widget.TextView[@text='Pay']",
-    "menubtnxpath": "//android.widget.ImageButton[@index='0']",
-    "scanqrbtnxpath": "//android.widget.TextView[@text='Scan QR']",
-    "myqrbtnxpath": "//android.widget.TextView[@text='myQR']",
-    "displaypicsbtnxpath": "//android.widget.RelativeLayout[@index='0']/android.widget.ListView[@index='0']/android.widget.LinearLayout[@index='0']/android.widget.ImageView[@index='0']",
-    "notificationiconbtnxpath": "//android.widget.LinearLayout[@index='0']/android.view.View[@index='0']/android.support.v7.widget.LinearLayoutCompat[@index='2']/android.widget.TextView[@index='0']",
-    "seealltransactionsbtnxpath": "//android.widget.TextView[@text='See all transactions']"
   }
 
 
