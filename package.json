@@ -1,0 +1,32 @@
+{
+  "name": "mobile",
+  "version": "0.0.1",
+  "description": "Common library for mobile test automation",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eseoghene/AppiumTestFramework-Nodejs"
+  },
+  "dependencies": {
+    "appium-doctor": "^1.9.0",
+    "async": "^2.6.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "fs": "0.0.1-security",
+    "underscore": "^1.8.3",
+    "util": "^0.10.3",
+    "mocha": "latest",
+    "xunit-file": "latest",
+    "wd": "latest"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "mocha Example/login --recursive -R xunit-file -t 9000000"
+  },
+  "author": "Eseoghene Mentie<ese.mentie@gmail.com>",
+  "license": " ",
+  "bugs": {
+    "url": "https://github.com/Eseoghene/AppiumTestFramework-Nodejs/issues"
+  },
+  "homepage": "https://github.com/Eseoghene/AppiumTestFramework-Nodejs#readme",
+  "devDependencies": {}
+}
