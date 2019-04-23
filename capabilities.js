@@ -1,6 +1,4 @@
-/**
- * Created by aniekan.eshiet on 1/19/2016.
- */
+
 
 exports.android43 = {
     'appium-version': '1.4.0.1',
@@ -14,8 +12,9 @@ exports.android44 = {
     'appium-version': '1.4.0.1',
     platformName: 'Android',
     platformVersion: '4.4.2',
-    deviceName: 'Genymotion Android Emulator'
-    //app: 'C:/MobileSolo/apps/KongaApp-debug-CATALOGDESIGN-20160108-1402.apk1'
+    deviceName: 'Genymotion Android Emulator',
+    app: undefined // will be set later
+    
 };
 
 exports.android455555={
